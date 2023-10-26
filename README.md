@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+## Formulario de registro para nuevos clientes
+  Este proyecto es un formulario de registro para nuevos clientes en nuestro sitio web. El formulario está desarrollado en React y utiliza un backend en PHP para almacenar los datos de los usuarios.
+- Cómo empezar
+  Para empezar, sigue estos pasos:
+  Clona el repositorio en tu máquina local.
+  Instala las dependencias del proyecto utilizando el comando npm install.
+  Crea un archivo .env en la raíz del proyecto y agrega las siguientes variables de entorno:
+  REACT_APP_API_URL=http://localhost:8080/contactanos/register.php
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - Estas variables de entorno se utilizan para especificar la URL del backend en PHP.
+  - Inicia el servidor de desarrollo utilizando el comando npm start.
+  - Abre tu navegador web y navega a http://localhost:3000 para ver el formulario de registro.
+## Tecnologías utilizadas
+  - React
+  - PHP
+  - Axios
+  - SweetAlert2
+## Cómo funciona
+  El formulario de registro está compuesto por cinco campos: nombres completos, número de identificación, número de celular, correo electrónico y ciudad. Cuando el usuario envía el formulario, los datos se envían al backend en PHP utilizando la biblioteca Axios. Si el registro es exitoso, se muestra un mensaje de confirmación utilizando la biblioteca SweetAlert2.
+## Cómo contribuir
+Si deseas contribuir a este proyecto, sigue estos pasos:
+Haz un fork del repositorio.
+Crea una rama para tu nueva funcionalidad utilizando el comando git checkout -b nueva-funcionalidad.
+Implementa tu nueva funcionalidad y haz los cambios necesarios.
+Haz un commit de tus cambios utilizando el comando git commit -m "Agrega nueva funcionalidad".
+Haz un push de tus cambios utilizando el comando git push origin nueva-funcionalidad.
+Crea un pull request en GitHub.
+Espera a que tu pull request sea revisado y aceptado.
+Licencia
+Este proyecto está licenciado bajo la Licencia MIT.
